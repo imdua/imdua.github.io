@@ -10,7 +10,7 @@
     "lint": "eslint .",
     "lint:eslintrc": "ESLINT_USE_FLAT_CONFIG=false eslint .",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@fortawesome/free-brands-svg-icons": "^6.5.1",
