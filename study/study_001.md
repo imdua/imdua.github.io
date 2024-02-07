@@ -1,4 +1,4 @@
-# ESLint & Prettier
+# ESLint & Prettier (정리 덜 됨)
 
 > 오류를 잡으려면 린터, 스타일을 교정하려면 포맷터를 사용.
 
