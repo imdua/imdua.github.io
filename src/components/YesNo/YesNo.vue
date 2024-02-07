@@ -10,7 +10,7 @@ watch(question, async (newQuestion, oldQuestion) => {
   if (newQuestion.indexOf('?') > -1) {
     loading.value = true
     imgUrl.value = ''
-    answer.value = '생각중...'
+    answer.value = '생각중......'
     try {
       const res = await fetch('https://yesno.wtf/api')
       const json = await res.json()

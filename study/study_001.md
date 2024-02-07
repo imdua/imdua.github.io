@@ -455,8 +455,8 @@ add(1, 2)
     - 프로젝트별로 node_modules에 매번 패키지를 설치했던 것과는 달리, global 저장소에 패키지를 한번만 저정함으로써 저장 공간을 절약할 수 있음. 즉, 똑같은 라이브러리를 중복해서 설치할 필요가 없다.
     - 특정 패키지를 한번만 설치하기 때문에 프로젝트별로 연결을 해놓으면 호환 문제가 발생할 수 있어서 버전 관리를 반드시 해줘야함.
 
-- Github Pages 배포 방법 ????
-  - [블로그 포스트 참고](https://velog.io/@mangojang/github-pages-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)
-  - 작업 사항 push 후
-  - `npm run deploy` 실행
-  - gh-pages branch 생성됨
+- Github Pages 배포 방법
+  - 빌드가 필요한 프로젝트
+    - [블로그 포스트 참고](https://velog.io/@mangojang/github-pages-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0)
+    - 작업 사항 commit, push 후 `npm run deploy` 실행
+    - gh-pages branch 생성됨
